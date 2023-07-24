@@ -1,0 +1,70 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 100px;
+    left: 100px;
+    transform: scale(3) translate(50px) rotateX(45deg) skewX(10deg);
+    
+
+}
+
+.absolute {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 0;
+}
+
+.relative {
+    position: relative
+}
+
+.fixed {
+    position: fixed
+}
+
+.sticky {
+    position: sticky
+}
+
+@keyframes slideIn{
+    from {
+        margin-left: 100%;
+        width: 70%;
+    }
+
+    50%{
+        background-color: aqua;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 50%;
+    }
+}
+
+.circle{
+    width: 50px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: red;
+    animation: slideIn 3s linear 1s infinite  forwards ;
+}
+
+#delay {
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+  
+  #delay:hover {
+    font-size: 36px;
+  }

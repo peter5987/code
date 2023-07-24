@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cssReset.css" />
+    <link rel="stylesheet" href="tips.css" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1{
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 0 5px;
+    }
+  </style>
+  <body>
+    <div id="form-container">
+      <form id="form">
+        <div class="title">
+          <h1>Tip Calculator</h1>
+        </div>
+        <br/>
+        <div class ="list">
+        <h1><label>How much was your bill?</label></h1>
+        <input type="text" id="bill" placeholder="Bill account" />
+        <h1><label>What's your tip option?</label></h1>
+        <select id="option" >
+          <option value="Open" selected>Open this select menu</option>
+          <option value="30">30%</option>
+          <option value="20">20%</option>
+          <option value="15">15%</option>
+          <option value="5">5%</option>
+          <option value="0">0%</option>
+        </select>
+        <br />
+        <h1><label>How many people gonna split it?</label></h1>
+        <select id="split">
+          <option value="Open" selected>Open this select menu</option>
+          <option value="4">4</option>
+          <option value="3">3</option>
+          <option value="2">2</option>
+          <option value="1">1</option>
+          <option value="0">0</option>
+        </select>
+        <br />
+        <div class="calculate">
+        <button id="CaButton" aria-label="please enter valid input!">Calculate!</button>
+      </div>
+      </form>
+    </div>
+  </div>
+    <script src="tip.js"></script>
+  </body>
+</html>

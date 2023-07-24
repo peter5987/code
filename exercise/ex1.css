@@ -1,0 +1,46 @@
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: rgb(242, 226, 4);
+}
+.square-list{
+    display: flex;
+}
+.square{
+    width: 8rem;
+    height: 2.5rem;
+    bottom: 20rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align:center; 
+}
+
+.center {
+    display: block;
+    width: 50rem;
+    height: 20rem;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    }
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: end;
+    top: auto;
+}
+
+.circle{
+    display: flex;
+    justify-content:center;
+    gap: 5px;
+
+}

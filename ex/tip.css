@@ -1,0 +1,35 @@
+
+body{
+    background: linear-gradient(to right, red, white);
+    justify-content: center ;
+}
+form{
+    background-color: white;
+    /* border-style:solid;
+    border-width:60px; */
+    width: 20rem;
+    height: 500px;
+    display: flex;
+    /* border: black; */
+    border: 0.3rem black solid;
+    border-radius: 8px;
+    margin: 90px;
+    justify-content: center;
+}
+
+.title{
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+button{
+    background-color: red;
+    border: red;
+    color: white;
+    border-radius:5px;
+    justify-content: center;
+    text-align: center;
+}

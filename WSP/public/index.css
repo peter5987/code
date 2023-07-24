@@ -1,0 +1,47 @@
+body{
+    background-image:url(back.jpg)
+}
+
+.board{
+    display: flex;  
+    justify-content:space-around    
+}
+
+.admin{
+    background-color: rgba(193, 1, 1, 0.904);
+    width: 20rem;
+    height: 40rem;
+    display: block;
+    text-align: center;
+}
+
+#adminPost{
+    margin-top: 10px;
+    background-size: 5rem 5rem;
+    background-color: rgb(249, 249, 112);
+    width:18rem;
+    height:18rem;
+    text-align: start;
+    box-shadow: 10px 10px 50px 5px black;
+}
+
+#adminPost1{
+    margin-top: 10px;
+    background-size: 5rem 5rem;
+    background-color: rgb(249, 249, 112);
+    width:18rem;
+    height:18rem;
+    text-align: start;
+    box-shadow: 10px 10px 50px 5px black;
+}
+
+#adminPost2{
+    margin-top: 10px;
+    background-size: 5rem 5rem;
+    background-color: rgb(249, 249, 112);
+    width:18rem;
+    height:18rem;
+    text-align: start;
+    box-shadow: 10px 10px 50px 5px black;
+}
+

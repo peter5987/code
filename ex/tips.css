@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(to right, red, white);
+}
+
+.title{
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border-radius: 0.7rem;
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form{
+    border: black solid 0.3rem;
+    width: 22rem;
+    height: 30rem;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+}
+
+select{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+input{
+    width: 15rem;
+}
+
+button{
+        background-color: red;
+        border: red;
+        color: white;
+        border-radius:5px;
+        display: inline-block;
+        justify-content: center;
+        margin-right: 2rem;
+        text-align: center;
+        height: 2rem;
+}
+
+.calculate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
